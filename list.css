@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+h1{
+    text-align: center;
+}
+body{
+    background-color: bisque;
+}
+.container{
+    margin-left: 90px;
+    border: solid 2px;
+    border-radius: 10px;
+    margin-top: 25px;
+    width: 80%;
+    align-content: center;
+    padding: 50px;
+}
+.likes{
+    margin: 14px;
+    padding: 25px;
+}
+#like{
+    color: brown;
+}
+.dislikes{
+    margin: 14px;
+    padding: 25px;
+}
+#dislike{
+    color: navy;
+    list-style-type: circle;
+    list-style-position: outside;
+    
+}
